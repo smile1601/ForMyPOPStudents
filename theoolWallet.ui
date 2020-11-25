@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TheOoLWallet</class>
+ <widget class="QMainWindow" name="TheOoLWallet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>620</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_Open"/>
+   </widget>
+   <widget class="QMenu" name="menu_Settings">
+    <property name="title">
+     <string>&amp;Settings</string>
+    </property>
+    <widget class="QMenu" name="menu_Options">
+     <property name="title">
+      <string>&amp;Options</string>
+     </property>
+     <addaction name="action_Wallet"/>
+     <addaction name="action_Network"/>
+     <addaction name="action_Display"/>
+    </widget>
+    <addaction name="action_Encrypt"/>
+    <addaction name="action_Change_Passphrase_2"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Options"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <widget class="QMenu" name="menu_Debug_window">
+     <property name="title">
+      <string>&amp;Debug window</string>
+     </property>
+     <addaction name="action_Information"/>
+     <addaction name="action_Console"/>
+     <addaction name="action_Network_Tra"/>
+    </widget>
+    <addaction name="menu_Debug_window"/>
+    <addaction name="action_Command_line_option"/>
+    <addaction name="separator"/>
+    <addaction name="action_About_the_program"/>
+    <addaction name="action_About_the_library"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menu_Settings"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+  </widget>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </action>
+  <action name="action_Encrypt_Wallet">
+   <property name="text">
+    <string>&amp;Encrypt Wallet</string>
+   </property>
+  </action>
+  <action name="action_Options">
+   <property name="text">
+    <string>&amp;Options</string>
+   </property>
+  </action>
+  <action name="action_Command_line_option">
+   <property name="text">
+    <string>&amp;Command line option</string>
+   </property>
+  </action>
+  <action name="action_About_the_program">
+   <property name="text">
+    <string>&amp;About the program</string>
+   </property>
+  </action>
+  <action name="action_About_the_library">
+   <property name="text">
+    <string>&amp;About the library</string>
+   </property>
+  </action>
+  <action name="action_Encrypt">
+   <property name="text">
+    <string>&amp;Encrypt Wallet</string>
+   </property>
+  </action>
+  <action name="action_Change_Passphrase_2">
+   <property name="text">
+    <string>&amp;Change Passphrase</string>
+   </property>
+  </action>
+  <action name="action_Main">
+   <property name="text">
+    <string>&amp;Main</string>
+   </property>
+  </action>
+  <action name="action_Wallet">
+   <property name="text">
+    <string>&amp;Wallet</string>
+   </property>
+  </action>
+  <action name="action_Network">
+   <property name="text">
+    <string>&amp;Network</string>
+   </property>
+  </action>
+  <action name="action_Display">
+   <property name="text">
+    <string>&amp;Display</string>
+   </property>
+  </action>
+  <action name="action_Information">
+   <property name="text">
+    <string>&amp;Information</string>
+   </property>
+  </action>
+  <action name="action_Console">
+   <property name="text">
+    <string>&amp;Console</string>
+   </property>
+  </action>
+  <action name="action_Network_Tra">
+   <property name="text">
+    <string>&amp;Network Traffic</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
